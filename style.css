@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@400;700;900&display=swap');
+@-ms-viewport{
+    width: device-width;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #212121
+}
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+}
+.main-container{
+    margin:0;
+    padding:0;
+}
+.call-btn{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 24px;
+    border: solid 3px;
+    background-color: transparent;
+    border-radius: 50px
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.call-btn, .menu{
+    margin: 35px;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCDCD;
+    margin:0;
+    padding: 150px 0 150px 0;
+    background-image: url("/assets/lips-bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cta-content{
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+    
+}
+.cta-title{
+    font-weight:900;
+    font-size: 80px;
+    line-height: 80px;
+}
+.alt-text{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+
+
+/* Card section  */
+.sect-cta-content{
+    display: flex;
+    background-image: url("/assets/hearts-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:120px 0
+}
+.card{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.sect-cta-text{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    box-shadow: 0 0  60px rgba(0, 0, 0, 0.08);
+    width: 80%;
+    padding-top: 25px;
+}
+.card-img{
+    
+    height: auto;
+    background-color: #FFCDCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0 120px 0;
+}
+.card-text{
+    margin:0;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.card-text::before{
+    background-image: url("/assets/checkbox.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text-container{
+    margin: 0;
+    padding:15px;
+    display: flex;
+    justify-content: center;
+}
+.text-container > img{
+    margin-right: 15px;
+    width: 25px;
+}
+.card-info{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.08);
+    width: 90%;
+}
+.card-btn{
+    display: flex;
+    justify-content: space-around
+}
+.sect-cta-text h2{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+/* About Section */
+.about-container{
+    display: flex;
+    background-color: #FFCDCD;
+    padding: 120px 50px;
+    background-image: url("/assets/hearts-bg2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+}
+.text-section{
+    width: 50%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.about-title{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.about-text{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32.3px;
+}
+.work-areas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.area-item{
+    text-decoration: none;
+    background-color: #F2F2F2;
+    color: #212121;
+    font-weight: 700;
+    border-radius: 60px;
+    font-size: 20px;
+    padding: 5px 10px;    
+    margin: 5px
+}
+
+.about-img-section{
+    width: 50%;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* Strategy Section  */
+
+.strat-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 50px;
+}
+.strat-img{
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strat-info{
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.strat-header{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.strat-quote{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justify;
+}
+.strat-author{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+.swipe-btn{
+    background-color: #ED4B09;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    width: 35%;
+}
+
+
+@media (max-width: 320px) {
+    .call-btn{
+        display: none;
+    }
+    .alt-text{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .cta-content{
+        width: 90%;
+    }
+    .cta-title{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .sect-cta-content{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .sect-cta-text{
+        width: 100%;
+    }
+    .card-img{
+        padding: 80px 0;
+    }
+    .card-img-item{
+        width: 80%;
+    }
+    .card-text{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .text-container > img{
+        width: 10px;
+    }
+    .card-btn > img{
+        width: 50%
+    }
+    .sect-cta-text h2{
+        font-size: 24px;
+        line-height: 24px;
+        width: 80%;
+    }
+    .text-section{
+        width: 80%;
+        padding: 0 20px;
+
+    }
+    .about-title{
+        font-size: 24px;
+        line-height: 23px;
+    }
+    .about-text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .area-item{
+        font-size: 8px;
+    }
+
+    .about-container{
+        padding: 30px 0px;
+        flex-direction: column;
+        background-size: cover;
+        background-position: bottom right;
+    }
+    .about-img-section{
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .about-img img{
+        margin-left: 50%;
+    }
+    .strat-container{
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+    .strat-img{
+        width: 100%;
+        padding: 0;
+    }
+    .strat-info{
+        width: 100%;
+    }
+    .strat-balance{
+        width: 100%;
+        margin: 0;
+    }
+    .strat-balance{
+        width: 100%;
+    }
+    .strat-balance img{
+        width: 100%;
+    }
+    .strat-header{
+        font-size: 24px;
+        line-height: 23px;
+    }
+    .strat-quote, .strat-author{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+    }
+    .swipe-btn{
+        font-size: 14px;
+        padding: 10px 15px;
+        width: 60%;
+    }
+}
